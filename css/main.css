@@ -62,14 +62,16 @@ textarea {
 body {
 	font: 16px/26px Helvetica, Helvetica Neue, Arial;
 	color: #CCC;
-	background: #060606;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.6),
+		rgba(0, 0, 0, 0.6)
+	  ), url('../img/r1t-background.jpeg') no-repeat;
+	background-position: 50% 80%;
 }
 
 .main {
-	background: transparent url('../img/tesla-logo.svg') no-repeat;
-	background-position: 50% 80px;
-	background-size: contain;
 	min-height: calc(100vh - 90px);
+	padding-bottom: 50px;
 }
 
 .wrapper {
@@ -92,6 +94,7 @@ body {
 
 .main aside {
 	background: rgba(65, 65, 65, .5);
+	margin-bottom:50px;
 }
 
 .title {
